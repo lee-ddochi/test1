@@ -1,0 +1,14 @@
+[
+    {"id":1,
+    "name": "티셔츠",
+    "price":5000,
+    "img":"https://m.gifteabox.com/web/product/big/202205/ef240c8fa0ea26dc4d7fa174e315c900.jpg"},
+    {"id":2,
+    "name": "후드",
+    "price":5000,
+    "img":"https://image.msscdn.net/thumbnails/images/goods_img/20210902/2106707/2106707_1_big.jpg?w=1200"},
+    {"id":3,
+    "name": "맨투맨",
+    "price":15000,
+    "img":"https://m.uremind.co.kr/web/product/big/202401/ea6ba8721a1df98dcfe705bde9152329.jpg"}
+    ]

@@ -1,0 +1,84 @@
+// // 변수작성 가능- 팀작업에 좋은
+// $main-color:skyblue;
+// $text-olor:#333;
+// $background-color:deeppink
+
+// body{
+//     margin :0; padding:0; color:$text-colot;
+// }
+// .nav{background-color: $background-color;
+// ul{
+//     list-style: none;
+//     display: flex;
+//     li{margin-right: 20px;
+//     a{
+//         text-decoration: none;
+//         color: $text-olor;
+//         padding: 10px 10px;
+//     }
+//     &.active{
+//         background-color: $background-colot;
+//     }
+//     }
+//     &.hover{
+//         background-color: linen;
+//     }
+// }
+// }
+
+// 변수작성 가능- 팀작업에 좋은
+$main-color: skyblue;
+$text-color: #333;
+$background-color: rgb(34, 181, 255);
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+    background-color: rgba(150, 255, 255, 0.613);
+}
+.Head{
+    height: 7rem; display: flex; justify-content: center; align-items: center;
+    color: cadetblue; font-size: 1.5rem; font-weight: 600; background-color: aliceblue;
+}
+.home{
+    width: 90%; margin: auto; text-align: center;
+}
+
+.nav {
+    background-color: $background-color;
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            margin-right: 20px; text-align: center;
+            width: 5rem; height: 1.5rem;
+            a {
+                text-decoration: none;
+                color: $text-color;
+                padding: 10px 10px;
+                width: 100%; height: 100%;
+            }
+            &:active {
+                background-color: $background-color;
+            }
+            
+        &:hover {
+            background-color: rgb(161, 202, 236);
+        }
+        }
+    }
+}
+.page{
+    width: 100%; margin: auto; align-items: center;
+display: flex; flex-direction: column; justify-content: center;
+.outbox{
+    display: flex; justify-content: space-around; align-items: center; 
+}
+.inbox{
+    width: 25%; height: 20rem; text-align: center;
+    background-color: white; border: 1px solid black;
+    border-radius: 20px; padding: 0rem 1rem;
+    img{width: 100%; height: 80%; object-fit: contain;}
+}
+}
